@@ -44,7 +44,7 @@
 | 13    | Countdown 5     | integer  | 0-86400   | s         |
 | 14    | Countdown 6     | integer  | 0-86400   | s         |
 | 15    | Countdown 7     | integer  | 0-86400   | s         |
-| 17    | Add Electricity | integer  | 0-50000   | kwh       |
+| 17    | Add Electricity | integer  | 0-50000   | kWh       |
 | 18    | Current         | integer  | 0-30000   | mA        |
 | 19    | Power           | integer  | 0-50000   | W         |
 | 20    | Voltage         | integer  | 0-5000    | V         |
