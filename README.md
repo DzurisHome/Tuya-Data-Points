@@ -2,7 +2,7 @@
 
 ## [LinkTree](https://linktr.ee/DzurisHome)
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/N4N6M7OX3)
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/DzurisHome)
 
 </br>
 
@@ -126,3 +126,7 @@
 | 101   | Current Temperature    | integer | 0-600        | 10x Celsius |
 | 102   | Current Humidity       | integer | 0-100        | %     |
 | 201   | IR Commands (set only) | JSON*   | n/a          | n/a   |
+
+## [LinkTree](https://linktr.ee/DzurisHome)
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/DzurisHome)
