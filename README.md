@@ -6,9 +6,9 @@
 
 </br>
 
-### Data Points
+> [!CAUTION]
+> Version 3.1 (and some 3.3) - Plug or Switch Type
 
-| Version 3.1 (and some 3.3) - Plug or Switch Type |
 | DP ID | Function Point | Type     | Range     | Units     |
 |------ | --------------- | -------- | --------- | --------- |
 | 1     | Switch          | bool     | True/False|           |
@@ -17,7 +17,11 @@
 | 5     | Power           | integer  | 0-50000   | W         |
 | 6     | Voltage         | integer  | 0-5000    | V         |
 
-| Version 3.1 - Light Type (RGB) |
+</br>
+
+> [!CAUTION]
+> Version 3.1 - Light Type (RGB)
+
 | DP ID | Function Point | Type      | Range                    | Units    |
 |------ | --------------- | --------- | ------------------------ | -------- |
 | 1     | Switch          | bool      | True/False               |          |
@@ -26,8 +30,13 @@
 | 4     | Color Temp      | integer   | 0-1000*                  |          |
 | 5     | Color           | hexstring | r:0-255, g:0-255, b:0-255, h:0-360, s:0-255, v:0-255 | rgb+hsv |
 
-| Version 3.3 Devices |
-| Version 3.3 - Plug, Switch, Power Strip Type |
+</br>
+
+> [!CAUTION]
+> Version 3.3 Devices
+> 
+> Version 3.3 - Plug, Switch, Power Strip Type |
+
 | DP ID | Function Point | Type     | Range     | Units     |
 |------ | --------------- | -------- | --------- | --------- |
 | 1     | Switch 1        | bool     | True/False|           |
@@ -61,9 +70,15 @@
 | 42    | UNKNOWN         |          |           |           |
 | 43    | UNKNOWN         |          |           |           |
 | 44    | UNKNOWN         |          |           |           |
-| Note: Some 3.3 energy management plugs use the DPS values of the 3.1 plug above. |
 
-| Version 3.3 - Dimmer Switch |
+> [!NOTE]
+> Note: Some 3.3 energy management plugs use the DPS values of the 3.1 plug above.
+
+</br>
+
+> [!CAUTION]
+> Version 3.3 - Dimmer Switch
+
 | DP ID | Function Point | Type     | Range     | Units     |
 |------ | --------------- | -------- | --------- | --------- |
 | 1     | Switch          | bool     | True/False|           |
@@ -72,7 +87,11 @@
 | 4     | Type of light source1 | enum | LED, incandescent, halogen | |
 | 5     | Mode            | enum     | white     |           |
 
-| Version 3.3 - Light Type (RGB) |
+</br>
+
+> [!CAUTION]
+> Version 3.3 - Light Type (RGB)
+
 | DP ID | Function Point | Type     | Range     | Units     |
 |------ | --------------- | -------- | --------- | --------- |
 | 20    | Switch          | bool     | True/False|           |
@@ -86,7 +105,11 @@
 | 28    | Debugger        | string   | n/a       |           |
 | 29    | Debug           | string   | n/a       |           |
 
-| Version 3.3 - Automated Curtain Type |
+</br>
+
+> [!CAUTION]
+> Version 3.3 - Automated Curtain Type
+
 | DP ID | Function Point         | Type    | Range          | Units |
 |------ | ---------------------- | ------- | --------------- | ----- |
 | 1     | Curtain Switch 1      | enum    | open, stop, close, continue | |
@@ -103,7 +126,11 @@
 | 13    | Motor Mode 2          | enum    | strong_power, dry_contact | |
 | 14    | Light mode            | enum    | relay, pos, none |       |
 
-| Version 3.3 - Fan Switch Type |
+</br>
+
+> [!CAUTION]
+> Version 3.3 - Fan Switch Type
+
 | DP ID | Function Point        | Type    | Range        | Units |
 |------ | --------------------- | ------- | -----------   | ----- |
 | 1     | Fan switch            | bool    | True/False   | n/a   |
@@ -120,7 +147,11 @@
 | 12    | Indicator status setting | enum  | none, relay, pos |       |
 | 13    | Backlight switch      | bool    | True/False   |       |
 
-| Version 3.3 - Universal IR Controller with optional Temp/Humidity |
+</br>
+
+> [!CAUTION]
+> Version 3.3 - Universal IR Controller with optional Temp/Humidity
+
 | DP ID | Function Point         | Type    | Range        | Units |
 |------ | ---------------------- | ------- | -----------   | ----- |
 | 101   | Current Temperature    | integer | 0-600        | 10x Celsius |
